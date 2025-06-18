@@ -7,8 +7,7 @@ This is a fun and interactive web application that lets you play sounds by press
 
 ## 🚀 Live Demo
 Check out the live demo here:  
-[**Live Demo (Vercel link)**](#)  
-_(Add your Vercel live link here once deployed)_
+https://drum-machine-azure-one.vercel.app/
 
 ---
 
