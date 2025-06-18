@@ -1,0 +1,57 @@
+body {
+      margin: 0;
+      background-color: #111;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    #drum-machine {
+      background: #1e1e1e;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.6);
+      width: 320px;
+    }
+
+    .display {
+      background: #2e2e2e;
+      color: #fff;
+      text-align: center;
+      font-size: 1.5rem;
+      padding: 15px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    .pads {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+    }
+
+    .drum-pad {
+      background: #3a3a3a;
+      color: #fff;
+      font-size: 1.5rem;
+      font-weight: bold;
+      padding: 25px;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+
+    .drum-pad:hover {
+      background-color: #14b8a6;
+      transform: scale(1.05);
+    }
+
+    .drum-pad:active {
+      background-color: #0d9488;
+      transform: scale(0.96);
+    }
